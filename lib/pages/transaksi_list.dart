@@ -321,7 +321,7 @@ class _TransaksiListState extends State<TransaksiList> {
                                                       TransaksiList()),
                                             );
                                             const snackBar = SnackBar(
-                                              content: Text('Produk diterima!'),
+                                              content: Text('Produk dikirim!'),
                                             );
                                             ScaffoldMessenger.of(context)
                                                 .showSnackBar(snackBar);
